@@ -6,11 +6,11 @@ const wv = typeof widgetVersion !== 'undefined' ? widgetVersion : Globals.VERSIO
 
 WidgetMetadata = {
   id: "forward.auto.danmu2",
-  title: "自动链接弹幕v2",
+  title: "自动链接弹幕",
   version: wv,
   requiredVersion: "0.0.2",
-  description: "自动获取播放链接并从服务器获取弹幕【五折码：CHEAP.5;七折码：CHEAP】",
-  author: "huangxd",
+  description: "自动获取播放链接并从服务器获取弹幕",
+  author: "小振ℓινє",
   site: "https://github.com/huangxd-/ForwardWidgets",
   globalParams: [
     // 源配置
@@ -21,7 +21,7 @@ WidgetMetadata = {
       placeholders: [
         {
           title: "配置1",
-          value: "tencent,iqiyi,imgo,bilibili,youku,renren,hanjutv",
+          value: "tencent,bilibili,qiyi,imgo,youku,renren,hanjutv",
         },
         {
           title: "配置2",
